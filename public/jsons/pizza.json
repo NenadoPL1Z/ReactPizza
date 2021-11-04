@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Чизбургер-пицца",
+    "img": "./image/cheeseburgerPizza.png",
+    "type": "Grill",
+    "price": ["395", "550", "700"],
+    "pizzaCrust": ["тонкое", "традиционное"],
+    "pizzaSize": ["26", "45", "70"]
+  },
+  {
+    "id": 2,
+    "name": "Сырная",
+    "img": "./image/cheese.png",
+    "type": "Vegetarian",
+    "price": ["450", "650", "800"],
+    "pizzaCrust": ["тонкое", "традиционное", "сырное"],
+    "pizzaSize": ["26", "30", "60"]
+  },
+  {
+    "id": 3,
+    "name": "Креветки по-азиатски",
+    "img": "./image/marine.png",
+    "type": "Vegetarian",
+    "price": ["290", "450", "600"],
+    "pizzaCrust": ["тонкое", "традиционное"],
+    "pizzaSize": ["25", "40", "70"]
+  },
+  {
+    "id": 4,
+    "name": "Сырный цыпленок",
+    "type": "Grill",
+    "img": "./image/cheeseChicken.png",
+    "price": ["385", "470", "620"],
+    "pizzaCrust": ["тонкое", "традиционное", "сырное"],
+    "pizzaSize": ["40", "50", "65"]
+  },
+  {
+    "id": 5,
+    "name": "Острая",
+    "type": "Spicy",
+    "img": "./image/Spicy.jpeg",
+    "price": ["395", "595", "700"],
+    "pizzaCrust": ["тонкое", "традиционное", "острое"],
+    "pizzaSize": ["26", "30", "70"]
+  },
+  {
+    "id": 6,
+    "name": "Пепперони",
+    "type": "Meat",
+    "img": "./image/pepperoni.jpg",
+    "price": ["300", "500", "700"],
+    "pizzaCrust": ["тонкое", "традиционное", "сырное"],
+    "pizzaSize": ["30", "60", "90"]
+  },
+  {
+    "id": 7,
+    "name": "Ветчина и грибы",
+    "type": "Meat",
+    "img": "./image/hamMushrooms.jpeg",
+    "price": ["300", "500", "700"],
+    "pizzaCrust": ["тонкое", "традиционное"],
+    "pizzaSize": ["30", "60", "90"]
+  },
+  {
+    "id": 8,
+    "name": "Двойной цыплёнок",
+    "type": "Spicy",
+    "img": "./image/doubleChicken.jpeg",
+    "price": ["300", "500", "900"],
+    "pizzaCrust": ["тонкое", "традиционное", "сырное"],
+    "pizzaSize": ["30", "60", "100"]
+  }
+]

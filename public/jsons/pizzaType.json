@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Все",
+    "type": "All"
+  },
+  {
+    "id": 2,
+    "name": "Мясные",
+    "type": "Meat"
+  },
+  {
+    "id": 3,
+    "name": "Вегетарианские",
+    "type": "Vegetarian"
+  },
+  {
+    "id": 4,
+    "name": "Гриль",
+    "type": "Grill"
+  },
+  {
+    "id": 5,
+    "name": "Острые",
+    "type": "Spicy"
+  },
+  {
+    "id": 6,
+    "name": "Закрытые",
+    "type": "Closed"
+  }
+]

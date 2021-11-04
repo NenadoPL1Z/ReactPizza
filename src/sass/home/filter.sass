@@ -1,0 +1,31 @@
+.filter
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &__block
+    display: flex
+    flex-wrap: wrap
+  &__item
+    margin: 0px 8px 10px 0
+    background-color: #F9F9F9
+    border-radius: 30px
+    padding: 23px 41px
+    color: $second-text-color
+    cursor: pointer
+    font-size: 16px
+    font-weight: 700
+    transition: .2s all linear
+    &--active
+      background-color: $second-color
+      color: $white-color
+    //&--not-active
+    //  background-color: red
+    //  color: $white-color
+    &--not-active:hover
+      background-color: #dcdbdb
+  &__sorted
+    display: flex
+    align-items: center
+    &-title
+      margin-right: 8px
+      font-size: 16px

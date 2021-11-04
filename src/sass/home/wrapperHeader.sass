@@ -1,0 +1,64 @@
+.wrapper-header
+  display: flex
+  justify-content: space-between
+  margin-bottom: 81px
+.logo
+  display: flex
+  align-items: center
+  cursor: pointer
+  &__text
+    margin: 0 0 3px 10px
+  &__title
+    text-transform: uppercase
+    font-size: 24px
+    font-weight: 600
+  &__subtitle
+    color: #7B7B7B
+    font-weight: 400
+
+.buy-button
+  width: 150px
+  height: 50px
+  cursor: pointer
+  font-family: inherit
+  border-radius: 30px
+  background-color: $main-color
+  border: 0
+  transition: .2s all linear
+  & > *
+    color: #ffffff
+    font-size: 16px
+  &:hover
+    border: 1px solid $main-color
+    background-color: #fff
+    color: #000
+    & > *
+      color: $main-color
+      font-size: 16px
+  &:hover &__counter:before
+    background: left 0px url('../../UI/icon/basketMainColor.png') no-repeat
+  &__block
+    display: flex
+    justify-content: space-around
+    position: relative
+    &:after
+      content: ''
+      position: absolute
+      left: 50%
+      transform: translateX(-50%)
+      top: -2.5px
+      width: 1px
+      height: 25px
+      background-color: rgba(255, 255, 255, 0.25)
+  &__prise
+  &__counter
+    position: relative
+    width: 30px
+    &::before
+      content: ''
+      position: absolute
+      left: -15px
+      top: 0
+      width: 18px
+      height: 18px
+      background: left 0px url('../../UI/icon/basket.png') no-repeat
